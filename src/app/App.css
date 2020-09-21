@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap'); 
+
+
+body {
+  font-family: 'Fresca', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.Homepage-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.Homepage {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: 000;
+}
+
+.Homepage .container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.Homepage .container .left img {
+  width: 100% ;
+  max-width: 300px;
+}
+
+.Homepage .container .right p {
+  width: 100% ;
+  max-width: 200px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.Homepage .container .right button {
+  padding: 20px;
+  background-color: green;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: 'Fresca', sans-serif;
+  color: white;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.AddTool {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.AddTool textarea {
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+
+.AddTool button {
+  padding: 20px;
+  background-color: green;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Fresca', sans-serif;
+  color: white;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.AddTool button,
+.AddTool textarea,
+.AddTool input,
+.AddTool h2 {
+  display: block;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tabla {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+.List {
+  list-style-type: none;
+}
+
+.List li:hover {
+  background-color: gray;
+}

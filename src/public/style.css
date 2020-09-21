@@ -1,0 +1,97 @@
+body {
+  background-color: gray;
+}
+
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  margin: 2rem;
+  justify-content: space-around;
+}
+
+.encabezado p {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.encabezado p:hover {
+  border-bottom: solid 1px black;
+}
+
+.button {
+  border: solid 1px black;
+  cursor: pointer;
+  width: 100%;
+  margin: 1rem 1rem 2rem 1 rem;
+}
+
+.Table {
+  display: grid;
+  grid-template-columns: 20vw 40vw 40vw ;
+  column-gap: 1fr;
+}
+
+.column-1 {
+  margin: 0.5rem;
+  background-color: white;
+}
+
+.column-2 {
+  margin: 0.5rem;
+  background-color: white;
+}
+
+.column-3 {
+  margin: 0.5rem;
+  background-color: white;
+}
+
+.list-item {
+  cursor: pointer;
+}
+
+.AddSomething {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.AddSomething textarea {
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+
+.AddSomething button {
+  padding: 10px;
+  background-color: green;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: white;
+  border-color: transparent;
+  cursor: pointer;
+  align-self: center;
+}
+
+.AddSomething input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.AddSomething h2 {
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+
+.AddSomething button,
+.AddSomething textarea,
+.AddSomething input,
+.AddSomething h2 {
+  display: block;
+}
+
+
