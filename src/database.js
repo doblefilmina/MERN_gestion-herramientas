@@ -10,6 +10,7 @@ const dbHost = process.env.DBHOST ;
 const url = process.env.URL ;
 
 
+
 mongoose.connect(url)
   .then(db => console.log('DB is connected'))
   .catch(err => console.error(err));

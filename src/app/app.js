@@ -1,6 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import { render, ReactDOM } from 'react-dom';
-import AddTool from './components/AddTool';
 import Tools from './components/Tools';
 import Homepage from './components/Homepage';
 import BuildingSites from './components/buildingSites';
